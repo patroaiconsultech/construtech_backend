@@ -1,23 +1,10 @@
-FROM node:20.20.2-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293 AS build
+FROM python:3.12.14-slim@sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea
 WORKDIR /app
-
-COPY package.json package-lock.json ./
-RUN npm ci --no-audit --no-fund
-
-COPY . .
-# Explicit copy is intentional: it makes the Railway/Docker build fail fast
-# if the canonical env contract is absent from the build context.
-COPY .env.example ./.env.example
-
-RUN npm run verify:release
-RUN npm test
-RUN npm run build
-
-FROM node:20.20.2-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
-WORKDIR /app
-ENV NODE_ENV=production
-USER node
-COPY --from=build /app/dist ./dist
-COPY server.mjs ./
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+COPY app.py config.py prompt.py provider.py quota.py ./
+RUN python -m compileall -q .
+USER 65532:65532
 EXPOSE 8080
-CMD ["node","server.mjs"]
+CMD ["sh","-c","exec uvicorn app:app --host 0.0.0.0 --port ${PORT:-8080}"]
