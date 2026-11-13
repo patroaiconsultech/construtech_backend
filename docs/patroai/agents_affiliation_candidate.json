@@ -1,0 +1,365 @@
+{
+  "artifact_kind": "PATROAI_AGENT_AFFILIATION_PROPOSAL_METADATA_ONLY",
+  "version": "1.0.0-candidate",
+  "as_of": "2026-11-13",
+  "organization": {
+    "public_name": "PATROAI CONSULTECH",
+    "organization_key": "PATROAI_CONSULTECH",
+    "actual_tenant_id": null,
+    "tenant_binding": "MUST_RESOLVE_SERVER_SIDE_FROM_AUTHENTICATED_PRINCIPAL"
+  },
+  "source_catalog_version": "ORKIO_EXECUTIVE_AGENT_CATALOG_R0_3_4_ONBOARDING_LANGUAGE_LOCALIZED_IDENTITIES_PROPOSAL_ONLY",
+  "source_catalog_sha256": "ba0be8b745e0ad049bf4f99203599273694ce3c911709e6a06366b0c3efae084",
+  "scope": "PREPARATORY_METADATA_ONLY",
+  "approval": {
+    "strategic_directives": "CEO_APPROVED_IN_CONVERSATION",
+    "publication": "NO_GO",
+    "runtime_activation": "NO_GO",
+    "ao01_audit": "PENDING"
+  },
+  "safety": {
+    "runtime_enabled": false,
+    "execute": false,
+    "create_agent": false,
+    "activate_agent": false,
+    "publish_knowledge": false,
+    "grant_roles": false,
+    "allow_cross_tenant": false,
+    "allow_secrets": false,
+    "financial_knowledge_public": false,
+    "no_client_supplied_tenant_authority": true
+  },
+  "agent_count": 33,
+  "agents": [
+    {
+      "agent_id": "orkio",
+      "canonical_name": "Josué",
+      "display_name": "Josué — Chief Executive Officer",
+      "role_code": "CEO",
+      "department": "Executive",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "orion",
+      "canonical_name": "Bezalel",
+      "display_name": "Bezalel — Chief Technology Officer",
+      "role_code": "CTO",
+      "department": "Technology",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "chris",
+      "canonical_name": "José",
+      "display_name": "José — Chief Financial Officer",
+      "role_code": "CFO",
+      "department": "Finance",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "auditor",
+      "canonical_name": "Natã",
+      "display_name": "Natã — Independent Technical Auditor",
+      "role_code": "CORE_AUDITOR",
+      "department": "Governance & Assurance",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "security",
+      "canonical_name": "Mardoqueu",
+      "display_name": "Mardoqueu — Core Security Guard / Policy Review",
+      "role_code": "CORE_SECURITY_GUARD",
+      "department": "Security & Governance",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "isadora",
+      "canonical_name": "Neemias",
+      "display_name": "Neemias — Chief Operating Officer",
+      "role_code": "COO",
+      "department": "Operations",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "carol",
+      "canonical_name": "Paulo",
+      "display_name": "Paulo — Chief Marketing Officer",
+      "role_code": "CMO",
+      "department": "Marketing",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "helena",
+      "canonical_name": "Débora",
+      "display_name": "Débora — Chief Legal Officer",
+      "role_code": "CLO",
+      "department": "Legal",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "gabriel",
+      "canonical_name": "Barnabé",
+      "display_name": "Barnabé — Chief Human Resources Officer",
+      "role_code": "CHRO",
+      "department": "People",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "valentina",
+      "canonical_name": "Aoliabe",
+      "display_name": "Aoliabe — Software Engineering Lead",
+      "role_code": "SOFTWARE_ENGINEERING_LEAD",
+      "department": "Technology",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "marina",
+      "canonical_name": "Abigail",
+      "display_name": "Abigail — Director of FP&A & Corporate Finance",
+      "role_code": "FP_AND_A_CORPORATE_FINANCE_DIRECTOR",
+      "department": "Finance",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "nuno",
+      "canonical_name": "Salomão",
+      "display_name": "Salomão — Strategy Director",
+      "role_code": "STRATEGY_DIRECTOR",
+      "department": "Strategy",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "laura",
+      "canonical_name": "Jetro",
+      "display_name": "Jetro — Business Planning Director",
+      "role_code": "BUSINESS_PLANNING_DIRECTOR",
+      "department": "Business Planning",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "miguel",
+      "canonical_name": "Hirão",
+      "display_name": "Hirão — Director of Software Architecture",
+      "role_code": "SOFTWARE_ARCHITECTURE_DIRECTOR",
+      "department": "Technology",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "sofia",
+      "canonical_name": "Ester",
+      "display_name": "Ester — Director of Cybersecurity",
+      "role_code": "CYBERSECURITY_DIRECTOR",
+      "department": "Security",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "bruno",
+      "canonical_name": "Noé",
+      "display_name": "Noé — SRE & Infrastructure Lead",
+      "role_code": "SRE_INFRA_LEAD",
+      "department": "Technology",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "aurora",
+      "canonical_name": "Beltessazar",
+      "display_name": "Beltessazar — AI & Data Director",
+      "role_code": "AI_DATA_DIRECTOR",
+      "department": "Technology",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "caio",
+      "canonical_name": "Mateus",
+      "display_name": "Mateus — Director of Valuation & Investment Analysis",
+      "role_code": "VALUATION_INVESTMENT_ANALYSIS_DIRECTOR",
+      "department": "Finance",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "teresa",
+      "canonical_name": "Lídia",
+      "display_name": "Lídia — Controller",
+      "role_code": "CONTROLLER",
+      "department": "Finance",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "lucas",
+      "canonical_name": "Filipe",
+      "display_name": "Filipe — Director of Growth & Marketing",
+      "role_code": "GROWTH_MARKETING_DIRECTOR",
+      "department": "Marketing",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "clara",
+      "canonical_name": "Esdras",
+      "display_name": "Esdras — Director of Legal & Compliance",
+      "role_code": "LEGAL_COMPLIANCE_DIRECTOR",
+      "department": "Legal",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "diana",
+      "canonical_name": "Obadias",
+      "display_name": "Obadias — Director of Privacy & Data Protection",
+      "role_code": "PRIVACY_DATA_PROTECTION_DIRECTOR",
+      "department": "Legal",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "renata",
+      "canonical_name": "Rute",
+      "display_name": "Rute — Director of People & Culture",
+      "role_code": "PEOPLE_CULTURE_DIRECTOR",
+      "department": "People",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "archangel_michael",
+      "canonical_name": "Miguel",
+      "display_name": "Miguel — Chief Security, Risk & Resilience Officer",
+      "role_code": "CHIEF_SECURITY_RISK_RESILIENCE_OFFICER",
+      "department": "Executive Risk & Resilience",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "archangel_gabriel",
+      "canonical_name": "Gabriel",
+      "display_name": "Gabriel — Chief Communications & Institutional Relations Officer",
+      "role_code": "CHIEF_COMMUNICATIONS_INSTITUTIONAL_RELATIONS_OFFICER",
+      "department": "Executive Communications",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "archangel_raphael",
+      "canonical_name": "Rafael",
+      "display_name": "Rafael — Chief Wellbeing & Care Officer",
+      "role_code": "CHIEF_WELLBEING_CARE_OFFICER",
+      "department": "People & Care",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "archangel_uriel",
+      "canonical_name": "Uriel",
+      "display_name": "Uriel — Chief Intelligence & Knowledge Officer",
+      "role_code": "CHIEF_INTELLIGENCE_KNOWLEDGE_OFFICER",
+      "department": "Executive Intelligence & Knowledge",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "archangel_jophiel",
+      "canonical_name": "Jofiel",
+      "display_name": "Jofiel — Chief Design, Experience & Innovation Officer",
+      "role_code": "CHIEF_DESIGN_EXPERIENCE_INNOVATION_OFFICER",
+      "department": "Design & Experience",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "archangel_chamuel",
+      "canonical_name": "Chamuel",
+      "display_name": "Chamuel — Chief Relationships, Partnerships & Customer Officer",
+      "role_code": "CHIEF_RELATIONSHIPS_PARTNERSHIPS_CUSTOMER_OFFICER",
+      "department": "Relationships & Partnerships",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "archangel_zadkiel",
+      "canonical_name": "Zadkiel",
+      "display_name": "Zadkiel — Chief Ethics, Trust & Transformation Officer",
+      "role_code": "CHIEF_ETHICS_TRUST_TRANSFORMATION_OFFICER",
+      "department": "Ethics, Trust & Transformation",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "metatron",
+      "canonical_name": "Metatron",
+      "display_name": "Metatron — Chief Governance & Orchestration Officer / Executive Chief of Staff",
+      "role_code": "CHIEF_GOVERNANCE_ORCHESTRATION_OFFICER",
+      "department": "Executive Governance",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "maria",
+      "canonical_name": "Maria",
+      "display_name": "Maria — Chief ESG & Social Impact Officer",
+      "role_code": "CHIEF_ESG_SOCIAL_IMPACT_OFFICER",
+      "department": "ESG & Sustainability",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    },
+    {
+      "agent_id": "adao",
+      "canonical_name": "Adão",
+      "display_name": "Adão — Environmental Sustainability Specialist",
+      "role_code": "ENVIRONMENTAL_SUSTAINABILITY_SPECIALIST",
+      "department": "ESG & Sustainability",
+      "affiliation_target": "PATROAI_CONSULTECH",
+      "affiliation_status": "PROPOSED_NOT_RUNTIME_ENABLED",
+      "role_scope": "ADVISORY_ONLY_NO_NEW_CAPABILITIES"
+    }
+  ]
+}
